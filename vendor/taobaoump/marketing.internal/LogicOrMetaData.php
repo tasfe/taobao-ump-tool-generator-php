@@ -10,7 +10,7 @@ class LogicOrMetaData extends ListMetaData {
 		$this->ListMetaData($elements);
 	}
 	
-	public function logicOr($metaData){
+	public function logicOr(MetaData $metaData){
 		$this->addElement($metaData);
 		return $this;
 	}

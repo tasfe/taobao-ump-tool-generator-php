@@ -10,7 +10,7 @@ class LogicAndMetaData extends ListMetaData {
 		$this->ListMetaData($metaData);
 	}
 	
-	public function logicAnd($metaData){
+	public function logicAnd(MetaData $metaData){
 		$this->addElement($metaData);
 		return $this;
 	}
